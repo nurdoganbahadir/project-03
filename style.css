@@ -74,8 +74,6 @@ nav {
 .paragraph2 {
   float: right;
 }
-.nav2 {
-}
 .nav2 img {
   padding: 10px;
 }
@@ -218,3 +216,38 @@ nav {
   font-size: 24px;
 }
 /* SECTOR 3 */
+.sec-3 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.images-cls2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  gap: 20px;
+  margin: 30px;
+}
+.images-cls2 div {
+  background-color: rgb(228, 226, 223);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  width: 350px;
+  height: 330px;
+}
+.images-cls2 img {
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+}
