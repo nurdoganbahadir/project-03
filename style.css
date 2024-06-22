@@ -119,3 +119,30 @@ nav {
   font-style: normal;
   font-size: 19px;
 }
+/* SECTİON 1 KISMI */
+.sec-1 {
+  background-image: url(./images/images/stock.jpg);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-1 {
+  background-color: rgb(213, 222, 229);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+.img-2 {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: rgb(255, 200, 104);
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  height: 300px;
+  width: 400px;
+}
