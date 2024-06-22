@@ -135,7 +135,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 800px;
   height: 300px;
+  margin: 40px;
+  border-radius: 10px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .img-2 {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -143,6 +151,23 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: right;
-  height: 300px;
+  height: auto;
   width: 400px;
+  position: relative;
+  margin: 40px;
+  border-radius: 10px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+.img-2 img {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.img-2 p {
+  margin: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
