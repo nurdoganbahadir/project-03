@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 3% 10%;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* NAV KISMI */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 3px solid rgb(217, 217, 217);
+  margin: 20px;
+  min-height: 150px;
+  height: auto;
+}
+.nav1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.nav1 > img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.nav1 > select {
+  width: 190px;
+  height: 40px;
+}
+#category {
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+  border: 1px solid rgb(208, 199, 199);
+  font-family: "Bellota", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+}
+.enter-word {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+}
+.enter-word input {
+  background-color: rgb(217, 217, 217);
+  border: none;
+}
+.enter-word img {
+  width: 35px;
+  height: 35px;
+}
+.paragraph1 {
+  font-family: "Judson", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+}
+.paragraph2 {
+  float: right;
+}
+.nav2 {
+}
+.nav2 img {
+  padding: 10px;
+}
+/* NAV DOWN KISMI */
+.nav-down {
+  min-height: 100px;
+  height: auto;
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.nav-down1 {
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+  border: 1px solid rgb(208, 199, 199);
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 20px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 21px;
+}
+.nav-down3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-down2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+}
