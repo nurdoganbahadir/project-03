@@ -7,6 +7,7 @@
   margin: 3% 10%;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(238, 236, 236);
 }
 /* NAV KISMI */
 nav {
@@ -79,7 +80,6 @@ nav {
 }
 /* NAV DOWN KISMI */
 .nav-down {
-  min-height: 100px;
   height: auto;
   margin: 40px;
   display: flex;
@@ -175,7 +175,6 @@ nav {
 .sec-2 {
   width: 100%;
   height: auto;
-  background-color: rgb(174, 160, 141);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,6 +216,7 @@ nav {
 }
 /* SECTOR 3 */
 .sec-3 {
+  background-color: rgb(238, 236, 236);
   width: 100%;
   height: auto;
   display: flex;
@@ -312,4 +312,20 @@ nav {
   font-style: normal;
   font-size: 24px;
   line-height: normal;
+}
+/* FOOTER */
+footer {
+  background-color: rgb(238, 236, 236);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  padding: 30px;
+}
+footer button {
+  border: none;
+  border-bottom: 2px solid black;
+  cursor: pointer;
 }
