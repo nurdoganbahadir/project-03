@@ -143,7 +143,9 @@ nav {
   font-weight: 400;
   font-style: italic;
   font-size: 32px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .img-2 {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -171,3 +173,48 @@ nav {
   right: 0;
   top: 0;
 }
+/* SECTOR 2 */
+.sec-2 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(174, 160, 141);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.images-cls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  gap: 10px;
+  margin: 20px;
+}
+.images-cls div {
+  background-color: rgb(228, 226, 223);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+}
+.images-cls img {
+  border-radius: 40px;
+  margin: 30px;
+  width: 300px;
+  height: 280px;
+}
+.baslik {
+  margin: 20px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+/* SECTOR 3 */
